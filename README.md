@@ -15,18 +15,13 @@ Está pensada para integrarse fácilmente en aplicaciones web, móviles o dashbo
 
 - **Node.js**
 - **Express.js**
-- **API externa de clima**
-- **JavaScript (ES6+)**
+- **API externa de clima (open-meteo.com)**
+- **Typescript **
 
 ---
 
 ## 🔎 Endpoint
 
-### Obtener clima por ciudad
+### Obtener clima por ciudad ejemplo:
 
-**GET** `/api/weather?city=NombreDeLaCiudad`
-
-#### 📥 Ejemplo de request
-
-```bash
-http://localhost:3000/api/weather?city=Buenos Aires
+**GET** `http://localhost:3000/api/getWeather?city=Buenos Aires`
