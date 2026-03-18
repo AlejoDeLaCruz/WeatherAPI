@@ -16,7 +16,7 @@ Está pensada para integrarse fácilmente en aplicaciones web, móviles o dashbo
 - **Node.js**
 - **Express.js**
 - **API externa de clima (open-meteo.com)**
-- **Typescript **
+- **Typescript**
 
 ---
 
