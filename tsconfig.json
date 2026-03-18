@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", //outDir es donde se va a compilar el proyecto para la producción
+    "rootDir": "./src", //dirección de la carpeta raíz
+    "lib": ["ESNext"], //Características de JS ESNext es la version mas nueva
+    "target": "ESNext", //Características de JS ESNext es la version mas nueva
+    "moduleResolution": "NodeNext", //Manera de compilar módulos de node
+    "module": "NodeNext",
+    "strict": false, //Reglas de TS
+    "sourceMap": true, //El source map da una referencia al código original de TS para cuando lo compile en JS (para que Express lo soporte)
+    "esModuleInterop": true, //Permitir usar módulos de common.js y de ECMASCRIPT 6
+    "declaration": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  },
+  "include": ["src/**/*.ts"] //Archivos que quiero incluir en la compilación
+}
